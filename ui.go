@@ -53,7 +53,7 @@ func (ui *UI) Draw() {
 	headerStyle := tcell.StyleDefault.Foreground(tcell.ColorYellow)
 
 	// Title
-	ui.drawText(2, 1, "とことんぷよぷよ", titleStyle)
+	ui.drawText(2, 1, "Terminal Puyo", titleStyle)
 
 	// Score and stats
 	ui.drawText(2, 3, fmt.Sprintf("Score: %d", ui.game.Score), headerStyle)

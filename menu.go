@@ -53,7 +53,7 @@ func (s *Screen) ShowMenu() int {
 		selectedStyle := tcell.StyleDefault.Reverse(true).Bold(true)
 
 		// Title
-		s.drawText(10, 3, "とことんぷよぷよ", titleStyle)
+		s.drawText(10, 3, "Terminal Puyo", titleStyle)
 
 		// Menu title
 		s.drawText(10, 6, "色数を選択してください:", normalStyle)
